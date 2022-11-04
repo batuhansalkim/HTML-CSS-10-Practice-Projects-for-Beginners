@@ -83,7 +83,9 @@ footer p {
     text-align: end;
 }
 
-
+footer a{
+    color: rgb(0, 255, 255);
+}
 
 
 
