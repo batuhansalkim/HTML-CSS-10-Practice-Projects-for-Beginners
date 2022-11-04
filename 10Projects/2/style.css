@@ -21,6 +21,7 @@ body{
 }
 .title_small{
     font-size: 20px;
+    color: rgb(43, 40, 40);
 }
 .form_container{
     margin-top: 20px;
@@ -47,13 +48,28 @@ input,select,textarea{
 input:focus{
     outline-color: red;
 }
+
 .button_container{
     display: flex;
 
     justify-content: flex-end;
     margin-top: 20px;
 }
-
+button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px ;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+button:hover{
+    background-color: rgb(250, 154, 154);
+    border: 2px solid red;
+    color: black;
+    transform: 0.3s ease-out;
+    cursor: pointer;
+}
 .textarea_control {
   grid-column: 1 / span 2;
 }
