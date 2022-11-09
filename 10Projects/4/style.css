@@ -78,14 +78,47 @@ body {
 }
 
 
+.bottom_section{
+    display: flex;
+    margin-top: 40px;
+}
 
+.contact{
+    background-color: aqua;
+}
+.about{
+    background-color: blanchedalmond;
+}
+.contact, .about{
+    min-height: 300px;
+    padding: 32px;
+    color: rgb(0, 0, 0);
+}
+.about h2, .contact h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+.about p,
+.contact p {
+  margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 20px;
+    color: white;
+}
 
-
-
-
-
-
-
+@media (max-width:786px) {
+    .hero_section{
+        min-height: 50vh;
+    }
+    .text_container{
+        padding: 10px;
+        text-align: center;
+    }
+}
 
 
 
