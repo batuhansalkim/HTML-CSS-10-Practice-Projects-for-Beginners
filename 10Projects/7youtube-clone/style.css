@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   line-height: 1.4;
+  background: rgb(255, 255, 255);
 }
 nav{
     display: flex;
@@ -21,19 +22,76 @@ nav{
 .logo img{
     width: 150px;
     height: auto;
+    cursor: pointer;
 }
 .center-nav{
     display: flex;
 }
 .search{
     display: flex;
+    
+}
+.search input{
+    min-width:600px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+    border-radius: 40px;
+    font-size: 20px;
+    
+}
+.search button{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    background: rgb(240, 239, 239);
+    display: grid;
+    margin-left: 15px;
+    cursor: pointer;
+}
+mic img{
+    width: 30px;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+}
+.dark{
+    background: #000;
+    color: white;
+}
+.light{
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
+}
+.container{
+    display: flex;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
 
-
-
-
-
-
-
-
+/*Side İcons Kısmında kaldım*/
