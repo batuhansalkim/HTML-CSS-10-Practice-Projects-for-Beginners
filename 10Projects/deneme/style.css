@@ -66,9 +66,33 @@ nav{
   line-height: 1.2;
   font-weight: 400;
 }
+.explore_btn{
+  background: #ffc066;
+  align-self: flex-start;
+  cursor: pointer;
+}
 
-
-
+.features{
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.feature{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+.feature img{
+  width: 72px;
+}
+.feature:hover{
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, "1", 1, 0.05);
+  
+}
 
 
 
